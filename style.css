@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans&family=Roboto:wght@400;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+.container {
+  max-width: 1496px;
+  margin: 5% auto;
+}
+
+.tech-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 30px;
+}
+
+.img-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imgArr {
+  display: flex;
+  flex-direction: column;
+}
+.imgArr img {
+  max-width: 64px;
+  border-radius: 4px;
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 10px;
+}
+.imgArr img:hover {
+  opacity: 1;
+}
+.mainImg img {
+  max-width: 300px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.icons {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.powers {
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(30%, -50%);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  text-align: center;
+}
+
+.modal-bold {
+  font-weight: 700;
+}
+.powerFlex p {
+  display: inline-block;
+  padding: 5px;
+}
+
+.powerBox {
+  max-width: 50%;
+  margin: 5% auto;
+}
+
+.check {
+  padding: 5px;
+}
+.col1 {
+  background-color: rgb(123, 122, 120, 0.5);
+}
+
+.col2 {
+  background-color: rgb(176, 172, 165, 0.4);
+}
+
+.ok {
+  border: none;
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  width: 80px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans&family=Roboto:wght@400;900&display=swap");
+
+.box {
+  margin: 0 auto;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 40px;
+}
+
+.firstpt {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.lush {
+  font-size: 24px;
+  font-weight: 800;
+
+  padding-bottom: 10px;
+}
+
+.info {
+  font-size: 12px;
+  color: rgba(15, 12, 12, 0.6);
+  padding-bottom: 10px;
+}
+
+.size {
+  font-size: 10px;
+  color: rgba(15, 12, 12, 0.6);
+  text-decoration: underline;
+}
+
+.second {
+  text-align: right;
+}
+
+.color {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-left: 8rem;
+}
+
+.inner {
+  height: 15px;
+  width: 15px;
+  background-color: #0cbaa6;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1px;
+}
+
+.cut-price {
+  padding-top: 5px;
+  font-size: 10px;
+  color: rgba(15, 12, 12, 0.6);
+  text-decoration: line-through;
+}
+
+.price-real {
+  font-weight: 800;
+  padding-bottom: 8px;
+}
+
+.offers {
+  font-size: 8px;
+  color: rgba(15, 12, 12, 0.6);
+}
+
+.collection {
+  background-color: rgb(215, 218, 250, 0.4);
+  color: rgb(95, 67, 161);
+  font-weight: 800;
+  margin-top: 40px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.features {
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+
+  justify-content: space-between;
+}
+.features p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.ojos {
+  margin-top: 30px;
+  border: 3px solid rgb(35, 4, 108);
+  border-radius: 5px;
+  display: flex;
+}
+
+.ojosLogo {
+  margin: 2rem 1rem;
+}
+
+.headText {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 800;
+  color: rgb(35, 4, 108);
+}
+
+.simpText {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  opacity: 0.6;
+}
+
+.sale {
+  margin-top: 20px;
+  display: flex;
+  border: 2px solid rgb(45, 179, 183);
+  border-radius: 5px;
+}
+
+.saleLogo {
+  margin: 1rem 1rem;
+}
+.saleText {
+  color: rgb(45, 179, 183);
+}
+
+.saleHead {
+  padding-top: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.saleSamllText {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+.highlight {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.lenseSelect {
+  margin-top: 40px;
+  width: 100%;
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(98, 43, 227);
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media (max-width: 578px) {
+  .tech-box {
+    grid-template-columns: auto;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .icons {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mainImg {
+    margin: 10px;
+  }
+}

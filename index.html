@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tech-box">
+        <div class="img-box">
+          <div class="sidebar">
+            <div class="imgArr">
+              <img
+                class="small-img active"
+                src="image1.jpg"
+                alt=""
+                onclick="changeImage(this)"
+              />
+              <img
+                class="small-img"
+                src="image2.jpg"
+                alt=""
+                onclick="changeImage(this)"
+              />
+              <img
+                class="small-img"
+                src="image3.jpg"
+                alt=""
+                onclick="changeImage(this)"
+              />
+              <img
+                class="small-img"
+                src="image4.jpg"
+                alt=""
+                onclick="changeImage(this)"
+              />
+              <img
+                class="small-img"
+                src="image5.jpg"
+                alt=""
+                onclick="changeImage(this)"
+              />
+              <img
+                class="small-img"
+                src="image6.jpg"
+                alt=""
+                onclick="changeImage(this)"
+              />
+              <img
+                class="small-img"
+                src="image7.jpg"
+                alt=""
+                onclick="changeImage(this)"
+              />
+            </div>
+          </div>
+          <div class="mainImg">
+            <img class="dispImg" id="fullImg" src="image1.jpg" alt="" />
+          </div>
+          <div class="icons">
+            <div>
+              <i><img src="share\icons8-share-24.svg" alt="" /></i>
+            </div>
+            <div>
+              <button class="powers">
+                <img src="icons\PowersIcon.svg" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="modal-container hidden">
+            <div class="modal">
+              <p class="modal-bold">
+                This frame supports lenses of a specific power range.
+              </p>
+              <p class="check">Check your power availability below:</p>
+              <div class="powerBox">
+                <div class="powerFlex col1">
+                  <p>SPH</p>
+                  <p>-8.00 to +6.00</p>
+                </div>
+                <div class="powerFlex col2">
+                  <p>CYL</p>
+                  <p>-5.00 to +5.00</p>
+                </div>
+              </div>
+              <button class="ok">OK</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flexbox-container">
+          <div class="box">
+            <div class="firstpt">
+              <div class="one">
+                <p class="lush">lush grass</p>
+                <p class="info">unisex | wide</p>
+                <p class="size">size guide</p>
+              </div>
+              <div class="second">
+                <p class="color"><span class="inner"></span></p>
+                <p class="cut-price">Rs. 2000.00</p>
+                <p class="price-real">1500.00</p>
+                <p class="offers">*Offers available</p>
+              </div>
+            </div>
+            <div class="secondPt">
+              <div class="collection">
+                <p>New Collection - Naugty Eyes</p>
+              </div>
+            </div>
+
+            <div class="thirdPt">
+              <div class="features">
+                <div class="feature">
+                  <i><img src="icons\PremiumQualityIcon.svg" alt="" /></i>
+                  <p>Premium Frame & Lens Quality</p>
+                </div>
+                <div class="feature">
+                  <i><img src="icons\PriceOffersIcon.svg" alt="" /></i>
+                  <p>Lowest Prices Guranteed</p>
+                </div>
+                <div class="feature">
+                  <i><img src="icons\CustomerSupportIcon.svg" alt="" /></i>
+                  <p>5000+ Happy Customers</p>
+                </div>
+                <div class="feature">
+                  <i><img src="icons\CustomerSupportIcon.svg" alt="" /></i>
+                  <p>Sustainable & Eco-Friendly Products</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="fourthPt">
+              <div class="ojos">
+                <div class="ojosLogo oBox">
+                  <img src="icons\LK_Monogram.svg" alt="" />
+                </div>
+                <div class="ojosText oBox">
+                  <p class="headText">OJOS Wear - A Lenskart Alliance</p>
+
+                  <p class="simpText">
+                    OJOS Wear is a new and vibrant brand by Lenskart.Shop from
+                    the range of stylish and quirky eyewear, curated for the
+                    GenZ, who love luxe styles at an affordable price!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="fifthPt">
+              <div class="sale">
+                <div class="saleLogo">
+                  <img src="icons\discount-svgrepo-com-green.svg" alt="" />
+                </div>
+                <div class="saleText">
+                  <p class="saleHead">Flat 45% off</p>
+                  <p class="saleSamllText">
+                    Use code <span class="highlight">sale45</span> | Valid on
+                    all products | discount ends soon!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sixthPt">
+              <button class="lenseSelect">Select lenses</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
